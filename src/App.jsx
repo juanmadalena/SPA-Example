@@ -10,9 +10,9 @@ import './App.css'
 function App() {
 
   const ROUTES = [
-    { name:"Home", path: "/", element: <Home /> },
-    { name:"Products", path: "/products", element: <Products /> },
-    { name:"Contact", path: "/contact", element: <Contact /> },
+    { name:"Home", path: "/SPA-Example/", element: <Home /> },
+    { name:"Products", path: "/SPA-Example/products", element: <Products /> },
+    { name:"Contact", path: "/SPA-Example/contact", element: <Contact /> },
     { name:null, path: "*", element: <PageNotFound /> },
   ]
 
